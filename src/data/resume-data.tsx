@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Krakow, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Krakow",
   about:
-    "Data Scientist focused on building products with extra attention to detail",
+    "Data Scientist with product builidng skills",
   summary:
-    "IT and Econometrics graduate with interests in Data Science and Artificial Intelligence. 3+ years of working experience in startups, 2+ years in corporate and 3+ years of running my own business.",
+    "Data Scientist with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Passionate about machine learning research since ~2018, combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
   personalWebsiteUrl: "https://thezapalsky.github.io",
   contact: {
@@ -54,19 +54,19 @@ export const RESUME_DATA = {
   education: [
     {
       school: "AGH University of Krakow",
-      degree: "Master's Degree in IT and Econometrics",
+      degree: "Master's Degree | IT and Econometrics",
       start: "2020",
       end: "2022",
     },
     {
       school: "AGH University of Krakow",
-      degree: "Bachelor's Degree in IT and Econometrics",
+      degree: "Bachelor's Degree | IT and Econometrics",
       start: "2017",
       end: "2020",
     },
     {
       school: "Universitat Politècnica de València (UPV)",
-      degree: "student exchange | machine learning & data science",
+      degree: "Student Exchange | Machine Learning & Data Science",
       start: "2022",
       end: "2022",
     },
@@ -90,7 +90,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2023",
       description:
-        "[TODO] Building, maintaning and growing a data annotation platform and community around it",
+        "Building, maintaning and growing a data annotation platform and a community around it",
     },
     {
       company: "International Paper",
@@ -135,7 +135,7 @@ export const RESUME_DATA = {
         "description",
       link: {
         label: "github.com",
-        href: "https://thezapalsky.github.io/",
+        href: "https://github.com/thezapalsky?tab=repositories",
       },
     },
   ],
