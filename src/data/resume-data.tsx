@@ -90,7 +90,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2023",
       description:
-        "Building, maintaning and growing a data annotation platform and a community around it",
+        "Building a data annotation & automation platform.",
     },
     {
       company: "International Paper",
@@ -120,7 +120,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "thezapalsky.github.io",
-      techStack: ["GitHub Actions"],
+      techStack: ["HTML", "CSS", "JS", "GitHub Pages"],
       description:
         "my personal website",
       link: {
@@ -129,13 +129,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "(...)",
-      techStack: ["tech stack"],
+      title: "older projects",
+      techStack: [],
       description:
-        "description",
+        "my GH with 2016-2023 projects ",
       link: {
         label: "github.com",
-        href: "https://github.com/thezapalsky?tab=repositories",
+        href: "https://github.com/thezapalsky",
       },
     },
   ],
