@@ -20,7 +20,7 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Mikolaj Zapalski",
+  name: "Mikołaj Zapalski",
   initials: "MZ",
   location: "Krakow, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Krakow",
@@ -59,16 +59,16 @@ export const RESUME_DATA = {
       end: "2022",
     },
     {
+      school: "Technical University of Valencia",
+      degree: "Student Exchange | Machine Learning & Data Science",
+      start: "2022",
+      end: "2022",
+    },
+    {
       school: "AGH University of Krakow",
       degree: "Bachelor's Degree | IT and Econometrics",
       start: "2017",
       end: "2020",
-    },
-    {
-      school: "Universitat Politècnica de València (UPV)",
-      degree: "Student Exchange | Machine Learning & Data Science",
-      start: "2022",
-      end: "2022",
     },
   ],
   work: [
@@ -105,37 +105,103 @@ export const RESUME_DATA = {
     {
       company: "Fern Flower",
       link: "https://www.internationalpaper.com/",
-      badges: [],
+      badges: ["Part-time"],
       title: "Business Owner",
       start: "2018",
-      end: "2022",
+      end: "2021",
       description:
         "Seasonal activity in the horticultural, garden and smart-home sectors.",
     },
     
   ],
   skills: [
-    "Python","pandas","numpy","fastAPI","MongoDB","AWS","git"
+    "Python","pandas","numpy","fastAPI","scikit-learn","pytorch-transformers", "jupyter", "MongoDB","AWS","git","graphite", "Google Sheets", "Apps Script", "Zapier"
   ],
   projects: [
+    {
+      title: "2048 x embd",
+      techStack: ["BERT","word2vec"],
+      description:
+        ">>more details soon<<",
+    },
+    {
+      title: "skyblue.yoga",
+      techStack: ["Stable Diffusion", "LLMs"],
+      description:
+        "attempt to create an Artifical Influencer",
+      link: {
+        label: "instagram.com",
+        href: "https://www.instagram.com/skyblue.yoga/",
+      },
+    },
+    {
+      title: "style transfer paper",
+      techStack: ["python","pytorch", "tensorflow"],
+      description:
+        "2022 paper that discusses AI art just before the generative boom",
+      link: {
+        label: "github.com",
+        href: "https://thezapalsky.github.io/witkacy/",
+      },
+    },
+    {
+      title: "mikosz-bot",
+      techStack: ["python", "asyncio", "API"],
+      description:
+        "pre-LLM era chatbot for discord and meta's services",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky/mikosz-bot",
+      },
+    },
     {
       title: "thezapalsky.github.io",
       techStack: ["HTML", "CSS", "JS", "GitHub Pages"],
       description:
-        "my personal website",
+        "personal static website serving as my 'business card'",
       link: {
         label: "github.com",
         href: "https://thezapalsky.github.io/",
       },
     },
     {
-      title: "older projects",
-      techStack: [],
+      title: "rec-sys-bt",
+      techStack: ["python", "surprise", "numpy"],
       description:
-        "my GH with 2016-2023 projects ",
+        "recommender system for a movies database",
       link: {
         label: "github.com",
-        href: "https://github.com/thezapalsky",
+        href: "https://github.com/thezapalsky/rec-sys-bt"
+      }
+    },
+    {
+      title: "word-of-the-day",
+      techStack: ["requests", "BeautifulSoup","cron"],
+      description:
+        "a simple python CLI app for language learning",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky/word-of-the-day"
+      }
+    },
+    {
+      title: "cv",
+      techStack: ["Next.js", "Vercel"],
+      description:
+        "this page basically, I tried to learn Next.js & Vercel",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky/cv",
+      },
+    },
+    {
+      title: "older projects",
+      techStack: ["jupyter", "analysis", "..."],
+      description:
+        "my GH profile with 2016-2023 projects ",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky?tab=repositories",
       },
     },
   ],
