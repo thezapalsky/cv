@@ -119,16 +119,24 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "[?] 2048 x embd",
-      techStack: ["BERT","word2vec"],
+      title: "2048-embd",
+      techStack: ["word2vec", "BERT"],
       description:
-        ">>more details soon<<",
+        "fundamentals of vector word embeddings meet classic 2048 game [WiP]",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky/2048-embd",
+      }
     },
     {
-      title: "[?] vid-upscale",
-      techStack: [],
+      title: "vid-upscale",
+      techStack: ["video upscaling"],
       description:
-        "untitled video upscaling future project",
+        "analysis of SOTA video upscaling methods [WiP]",
+        link: {
+          label: "github.com",
+          href: "https://github.com/thezapalsky/vid-upscale/",
+        }
     },
     {
       title: "skyblue.yoga",
