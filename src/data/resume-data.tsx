@@ -1,22 +1,22 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
+// import {
+//   AmbitLogo,
+//   BarepapersLogo,
+//   BimLogo,
+//   CDGOLogo,
+//   ClevertechLogo,
+//   ConsultlyLogo,
+//   EvercastLogo,
+//   Howdy,
+//   JarockiMeLogo,
+//   JojoMobileLogo,
+//   Minimal,
+//   MobileVikingsLogo,
+//   MonitoLogo,
+//   NSNLogo,
+//   ParabolLogo,
+//   TastyCloudLogo,
+//   YearProgressLogo,
+// } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -119,16 +119,22 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "2048 x embd",
+      title: "[?] 2048 x embd",
       techStack: ["BERT","word2vec"],
       description:
         ">>more details soon<<",
     },
     {
+      title: "[?] vid-upscale",
+      techStack: [],
+      description:
+        "untitled video upscaling future project",
+    },
+    {
       title: "skyblue.yoga",
       techStack: ["Stable Diffusion", "LLMs"],
       description:
-        "attempt to create an Artifical Influencer",
+        "my attempt to create an Artifical Influencer",
       link: {
         label: "instagram.com",
         href: "https://www.instagram.com/skyblue.yoga/",
@@ -184,16 +190,16 @@ export const RESUME_DATA = {
         href: "https://github.com/thezapalsky/word-of-the-day"
       }
     },
-    {
-      title: "cv",
-      techStack: ["Next.js", "Vercel"],
-      description:
-        "this page basically, I tried to learn Next.js & Vercel",
-      link: {
-        label: "github.com",
-        href: "https://github.com/thezapalsky/cv",
-      },
-    },
+    // {
+    //   title: "cv",
+    //   techStack: ["Next.js", "Vercel"],
+    //   description:
+    //     "this page basically, I tried to learn Next.js & Vercel",
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://github.com/thezapalsky/cv",
+    //   },
+    // },
     {
       title: "older projects",
       techStack: ["jupyter", "analysis", "..."],
