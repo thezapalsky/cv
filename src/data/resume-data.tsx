@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "now",
       description:
-        "Building next-generation holistic wellness platform for personal and professional use.",
+        "Building next-generation holistic wellness platform for personal and professional use (llm assistant, semantic search, content recommendations, user scoring, wearables integration).",
     },
     {
       company: "Epinote",
@@ -115,7 +115,7 @@ export const RESUME_DATA = {
     
   ],
   skills: [
-    "Python","pandas","numpy","fastAPI","scikit-learn","pytorch-transformers", "jupyter", "MongoDB","AWS","git","graphite", "Google Sheets", "Apps Script", "Zapier"
+    "Python","pandas","numpy","OpenAI API","fastAPI","scikit-learn","pytorch-transformers", "jupyter", "MongoDB","AWS","Docker","git","graphite", "Google Sheets", "Apps Script", "Zapier"
   ],
   projects: [
     {
@@ -145,10 +145,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "mikosz-bot",
+      title: "rap-bot",
       techStack: ["python", "asyncio", "API"],
       description:
-        "pre-LLM era chatbot for discord and meta's services",
+        "pre-LLM era chatbot for discord and meta's services with rap-style song writing feature",
       link: {
         label: "github.com",
         href: "https://github.com/thezapalsky/mikosz-bot",
