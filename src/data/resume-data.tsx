@@ -128,16 +128,16 @@ export const RESUME_DATA = {
         href: "https://github.com/thezapalsky/2048-embd",
       }
     },
-    {
-      title: "vid-upscale",
-      techStack: ["video upscaling"],
-      description:
-        "analysis of SOTA video upscaling methods [WiP]",
-        link: {
-          label: "github.com",
-          href: "https://github.com/thezapalsky/vid-upscale/",
-        }
-    },
+    // {
+    //   title: "vid-upscale",
+    //   techStack: ["video upscaling"],
+    //   description:
+    //     "analysis of SOTA video upscaling methods [WiP]",
+    //     link: {
+    //       label: "github.com",
+    //       href: "https://github.com/thezapalsky/vid-upscale/",
+    //     }
+    // },
     {
       title: "skyblue.yoga",
       techStack: ["Stable Diffusion", "LLMs"],
