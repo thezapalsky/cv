@@ -122,7 +122,7 @@ export const RESUME_DATA = {
       title: "2048-embd",
       techStack: ["word2vec", "BERT"],
       description:
-        "fundamentals of vector word embeddings meet classic 2048 game [WiP]",
+        "fundamentals of vector word embeddings meet classic 2048 game",
       link: {
         label: "github.com",
         href: "https://github.com/thezapalsky/2048-embd",
