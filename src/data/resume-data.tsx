@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "09/2023",
       end: "now",
       description:
-        "Responsible for building and maintaining machine learning models for the holistic wellness mobile app (personal LLM assistant, in-app content recommendation system, semantic search engine). Designed and deployed ML data pipelines for users activity scoring and content-retrieval modules). Technologies: python, pandas, numpy, pytorch, juyter, fastAPI, AWS, openAI, mongoDB.",
+        "Responsible for building and maintaining machine learning models for the holistic wellness mobile app (personal LLM assistant, in-app content recommendation system, semantic search engine). Designed and deployed ML data pipelines for users activity scoring and content-retrieval modules. Technologies: python, pandas, numpy, pytorch, juyter, fastAPI, AWS, openAI, mongoDB.",
     },
     {
       company: "Epinote",
@@ -90,7 +90,7 @@ export const RESUME_DATA = {
       start: "04/2020",
       end: "09/2023",
       description:
-        "Started as a Data Analyst responsible for handling hundreds of multimodal datasets (vision, tabular, text, audio) with focus on quality assurance and dataset anonymisation. Later joined product team where I designed and delivered dozens of internal tech solutions (scrappers, API wrappers, data extractors, formatters, legal paperwork automations, ...). The most notable one being entire contractors payroll pipeline (handling ~$50k for ~400 contractors monthly; including transfers, invoicing, auto P&L reporting). Technologies: python, pandas, jupyter, CVAT, javascript, Zapier, GSheets.",
+        "Started as a Data Analyst responsible for handling hundreds of multimodal datasets (vision, tabular, text, audio) with strong emphasis on data quality assurance. Later joined product team where I designed and delivered dozens of internal tech solutions (web scrappers, API wrappers, data extractors, formatters, legal paperwork automations, ...). The most notable one being worldwide contractors payroll pipeline (monthly handling ~$50k for ~400 employees; data flow included transfers, invoicing and auto P&L reporting). Technologies: python, pandas, jupyter, CVAT, javascript, Zapier, GSheets.",
     },
     {
       company: "International Paper",
