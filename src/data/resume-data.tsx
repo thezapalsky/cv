@@ -77,20 +77,20 @@ export const RESUME_DATA = {
       badges: [],
       link: "https://www.goewellness.com/",
       title: "Data Scientist",
-      start: "2023",
+      start: "09/2023",
       end: "now",
       description:
-        "Building next-generation holistic wellness platform for personal and professional use (llm assistant, semantic search, content recommendations, user scoring, wearables integration).",
+        "Responsible for building and maintaining machine learning models for the holistic wellness mobile app (personal LLM assistant, in-app content recommendation system, semantic search engine). Designed and deployed ML data pipelines for users activity scoring and content-retrieval modules). Technologies: python, pandas, numpy, pytorch, juyter, fastAPI, AWS, openAI, mongoDB.",
     },
     {
       company: "Epinote",
       link: "https://epinote.io/",
       badges: ["Remote"],
-      title: "Data Generalist",
-      start: "2020",
-      end: "2023",
+      title: "Data Generalist (Analyst -> Product Engineer)",
+      start: "04/2020",
+      end: "09/2023",
       description:
-        "Building a data annotation & automation platform.",
+        "Started as a Data Analyst responsible for handling hundreds of multimodal datasets (vision, tabular, text, audio) with focus on quality assurance and dataset anonymisation. Later joined product team where I designed and delivered dozens of internal tech solutions (scrappers, API wrappers, data extractors, formatters, legal paperwork automations, ...). The most notable one being entire contractors payroll pipeline (handling ~$50k for ~400 contractors monthly; including transfers, invoicing, auto P&L reporting). Technologies: python, pandas, jupyter, CVAT, javascript, Zapier, GSheets.",
     },
     {
       company: "International Paper",
