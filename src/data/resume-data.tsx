@@ -119,6 +119,16 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "agency",
+      techStack: ["Stable Diffusion", "ollama", "LLMs"],
+      description:
+        "PoC for a virtual influencer agency",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky/agency/blob/main/poc.ipynb",
+      },
+    },
+    {
       title: "2048-embd",
       techStack: ["word2vec", "BERT"],
       description:
