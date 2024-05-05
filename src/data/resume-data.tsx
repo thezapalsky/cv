@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Krakow, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Krakow",
   about:
-    "ML Engineer with product builidng skills",
+    "ML Engineer with product building skills",
   summary:
     "ML Engineer with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions. Worked with LLMs for +1 year, experienced in GenAI (stable diffusion, style transfer), search & recommender systems.",
   avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
@@ -100,7 +100,7 @@ export const RESUME_DATA = {
       start: "04/2020",
       end: "01/2022",
       description:
-        "• Managed hundreds of multimodal datasets (vision, tabular, text, audio), ensuring data quality through robust annotation, cleaning and validation processes.\n• Developed and implemented data quality checks to improve data integrity for machine learning projects\n• Iteratively optimised data annotation process which led to 10x improvement in project delivery time\n• Transitioned to a combined role encompassing project and operations management, ensuring smooth data pipeline execution and client satisfaction\n• Led the annotation of machine learning models, fostering improved model performance and accuracy",
+        "• Managed hundreds of multimodal datasets (vision, tabular, text, audio), ensuring data quality through robust annotation, cleaning and validation processes.\n• Developed and implemented data quality checks to improve data integrity for machine learning projects\n• Iteratively optimised data annotation process which led to 10x improvement in project delivery time\n• Transitioned to a combined role encompassing project and operations management, ensuring smooth data pipeline execution and client satisfaction\n• Led the annotation team, gathered and implemented client requirements and feedback, resulting in a significant improvement in model performance and accuracy",
     },
     {
       company: "International Paper",
