@@ -110,7 +110,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2021",
       description:
-        "Provided technical support and incident management for IT systems and peripherals, effectively resolving issues, monitoring & responding to alerts, prioritizing tasks to minimize global infrastructure disruptions and enhance user experience.",
+        "• Provided technical support and incident management for IT systems and peripherals, effectively resolving issues, monitoring & responding to alerts\n• Prioritizing tasks to minimize global infrastructure disruptions and enhance user experience",
     },
     {
       company: "Fern Flower",
@@ -120,7 +120,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2021",
       description:
-        "Seasonal activity in the garden and home automation sectors.",
+        "• Seasonal activity in the garden and home automation sectors",
     },
     
   ],
