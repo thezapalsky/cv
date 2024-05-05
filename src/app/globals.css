@@ -78,3 +78,7 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+.display-linebreak {
+  white-space: pre-line;
+}

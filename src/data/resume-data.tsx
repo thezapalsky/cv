@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Krakow, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Krakow",
   about:
-    "Data Scientist with product builidng skills",
+    "ML Engineer with product builidng skills",
   summary:
-    "Data Scientist with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Passionate about machine learning research since ~2018, combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
+    "ML Engineer with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions. Worked with LLMs for +1 year, experienced in GenAI (stable diffusion, style transfer), search & recommender systems.",
   avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
   personalWebsiteUrl: "https://thezapalsky.github.io",
   contact: {
@@ -54,7 +54,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "AGH University of Krakow",
-      degree: "Master's Degree | IT and Econometrics",
+      degree: "Master's Degree | IT & Econometrics",
       start: "2020",
       end: "2022",
     },
@@ -66,7 +66,7 @@ export const RESUME_DATA = {
     },
     {
       school: "AGH University of Krakow",
-      degree: "Bachelor's Degree | IT and Econometrics",
+      degree: "Bachelor's Degree | IT & Econometrics",
       start: "2017",
       end: "2020",
     },
@@ -76,21 +76,31 @@ export const RESUME_DATA = {
       company: "GoE Wellness",
       badges: [],
       link: "https://www.goewellness.com/",
-      title: "Data Scientist",
+      title: "Machine Learning Engineer",
       start: "09/2023",
       end: "now",
       description:
-        "Responsible for building and maintaining machine learning models for the holistic wellness mobile app (personal LLM assistant, in-app content recommendation system, semantic search engine). Designed and deployed ML data pipelines for users activity scoring and content-retrieval modules. Technologies: python, pandas, numpy, pytorch, juyter, fastAPI, AWS, openAI, mongoDB.",
+        "• Developed and maintained machine learning models for a holistic wellness mobile app, including a personal LLM assistant, in-app content recommendation system and semantic search engine\n• Designed and deployed efficient ML data pipelines for user activity scoring and content retrieval modules, optimising app performance\n• Leveraged Python expertise (pandas, NumPy, PyTorch, FastAPI) to deploy machine learning models on AWS infrastructure, integrating OpenAI API and wearables API with MongoDB for advanced functionalities and user data management",
     },
     {
       company: "Epinote",
       link: "https://epinote.io/",
-      badges: ["Remote"],
-      title: "Data Generalist (Analyst -> Product Engineer)",
-      start: "04/2020",
+      badges: [],
+      title: "Product Engineer",
+      start: "07/2022",
       end: "09/2023",
       description:
-        "Started as a Data Analyst responsible for handling hundreds of multimodal datasets (vision, tabular, text, audio) with strong emphasis on data quality assurance. Later joined product team where I designed and delivered dozens of internal tech solutions (web scrappers, API wrappers, data extractors, formatters, legal paperwork automations, ...). The most notable one being worldwide contractors payroll pipeline (monthly handling ~$50k for ~400 employees; data flow included transfers, invoicing and auto P&L reporting). Technologies: python, pandas, jupyter, CVAT, javascript, Zapier, GSheets.",
+      "• Designed, delivered and owned numerous internal tech solutions (web scrapers, data pipelines, automation tools) that streamlined workflows and boosted efficiency\n• Led the development of a global contractors' payroll pipeline, automating monthly processing for ~400 employees (~$50k) and integrating transfers, invoicing, and P&L reporting\n• Successfully implemented 70% efficiency improvement through automation of contractors’ legal paperwork pipeline\n• Proposed the exploration of OpenAI API for data augmentation, investigating its potential to increase the size of the client's CRM database by 15%\n• Utilised Python, Pandas, Jupyter Notebook, Javascript, Zapier, and Google Sheets to deliver effective solutions",
+    },
+    {
+      company: "Epinote",
+      link: "https://epinote.io/",
+      badges: [],
+      title: "Data Analyst",
+      start: "04/2020",
+      end: "01/2022",
+      description:
+        "• Managed hundreds of multimodal datasets (vision, tabular, text, audio), ensuring data quality through robust annotation, cleaning and validation processes.\n• Developed and implemented data quality checks to improve data integrity for machine learning projects\n• Iteratively optimised data annotation process which led to 10x improvement in project delivery time\n• Transitioned to a combined role encompassing project and operations management, ensuring smooth data pipeline execution and client satisfaction\n• Led the annotation of machine learning models, fostering improved model performance and accuracy",
     },
     {
       company: "International Paper",
@@ -100,25 +110,66 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2021",
       description:
-        "Weekend, part-time work focused on supporting the IT Help Desk team in their daily tasks.",
+        "Provided technical support and incident management for IT systems and peripherals, effectively resolving issues, monitoring & responding to alerts, prioritizing tasks to minimize global infrastructure disruptions and enhance user experience.",
     },
     {
       company: "Fern Flower",
-      link: "https://www.internationalpaper.com/",
+      link: "https://www.linkedin.com/company/14782135/",
       badges: ["Part-time"],
       title: "Business Owner",
       start: "2018",
       end: "2021",
       description:
-        "Seasonal activity in the horticultural, garden and smart-home sectors.",
+        "Seasonal activity in the garden and home automation sectors.",
     },
     
   ],
   skills: [
-    "Python","pandas","numpy","OpenAI API","fastAPI","scikit-learn","pytorch-transformers", "jupyter", "MongoDB","AWS","Docker","git","graphite", "Google Sheets", "Apps Script", "Zapier"
+    "Python","pandas","numpy","OpenAI API","fastAPI","scikit-learn","pytorch-transformers", "jupyter", "LangChain", "MongoDB","AWS","Docker","git","graphite", "Apps Script", "Zapier"
   ],
   projects: [
     {
+      title: "style transfer paper",
+      techStack: ["python","pytorch", "tensorflow"],
+      description:
+        "2022 master's thesis that discusses GenAI art just before the generative boom",
+      link: {
+        label: "github.com",
+        href: "https://thezapalsky.github.io/witkacy/",
+      },
+    },
+    {
+      title: "recommender sys paper",
+      techStack: ["python", "surprise", "numpy"],
+      description:
+        "2020 bachelor's thesis that compares different recommender systems for a movie database",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky/rec-sys-bt"
+      }
+    },
+    {
+      title: "polish rap bot",
+      techStack: ["python", "asyncio", "API"],
+      description:
+        "pre-LLM era chatbot for discord and meta's services with rap-style song writing feature",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky/mikosz-bot",
+      },
+    },
+    {
+      title: "@skyblue.yoga",
+      techStack: ["Stable Diffusion", "LLMs"],
+      description:
+        "my attempt to create an Artifical Influencer, PoC built for a podcast episode",
+      link: {
+        label: "instagram.com",
+        href: "https://www.instagram.com/skyblue.yoga/",
+      },
+    },
+    {
+      
       title: "agency",
       techStack: ["Stable Diffusion", "ollama", "LLMs"],
       description:
@@ -148,66 +199,26 @@ export const RESUME_DATA = {
     //       href: "https://github.com/thezapalsky/vid-upscale/",
     //     }
     // },
-    {
-      title: "skyblue.yoga",
-      techStack: ["Stable Diffusion", "LLMs"],
-      description:
-        "my attempt to create an Artifical Influencer",
-      link: {
-        label: "instagram.com",
-        href: "https://www.instagram.com/skyblue.yoga/",
-      },
-    },
-    {
-      title: "style transfer paper",
-      techStack: ["python","pytorch", "tensorflow"],
-      description:
-        "2022 paper that discusses AI art just before the generative boom",
-      link: {
-        label: "github.com",
-        href: "https://thezapalsky.github.io/witkacy/",
-      },
-    },
-    {
-      title: "rap-bot",
-      techStack: ["python", "asyncio", "API"],
-      description:
-        "pre-LLM era chatbot for discord and meta's services with rap-style song writing feature",
-      link: {
-        label: "github.com",
-        href: "https://github.com/thezapalsky/mikosz-bot",
-      },
-    },
-    {
-      title: "thezapalsky.github.io",
-      techStack: ["HTML", "CSS", "JS", "GitHub Pages"],
-      description:
-        "personal static website serving as my 'business card'",
-      link: {
-        label: "github.com",
-        href: "https://thezapalsky.github.io/",
-      },
-    },
-    {
-      title: "rec-sys-bt",
-      techStack: ["python", "surprise", "numpy"],
-      description:
-        "recommender system for a movies database",
-      link: {
-        label: "github.com",
-        href: "https://github.com/thezapalsky/rec-sys-bt"
-      }
-    },
-    {
-      title: "word-of-the-day",
-      techStack: ["requests", "BeautifulSoup","cron"],
-      description:
-        "a simple python CLI app for language learning",
-      link: {
-        label: "github.com",
-        href: "https://github.com/thezapalsky/word-of-the-day"
-      }
-    },
+    // {
+    //   title: "thezapalsky.github.io",
+    //   techStack: ["HTML", "CSS", "JS", "GitHub Pages"],
+    //   description:
+    //     "personal static website serving as my 'business card'",
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://thezapalsky.github.io/",
+    //   },
+    // },
+    // {
+    //   title: "word-of-the-day",
+    //   techStack: ["requests", "BeautifulSoup","cron"],
+    //   description:
+    //     "a simple python CLI app for language learning",
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://github.com/thezapalsky/word-of-the-day"
+    //   }
+    // },
     // {
     //   title: "cv",
     //   techStack: ["Next.js", "Vercel"],
@@ -218,15 +229,15 @@ export const RESUME_DATA = {
     //     href: "https://github.com/thezapalsky/cv",
     //   },
     // },
-    {
-      title: "older projects",
-      techStack: ["jupyter", "analysis", "..."],
-      description:
-        "my GH profile with 2016-2023 projects ",
-      link: {
-        label: "github.com",
-        href: "https://github.com/thezapalsky?tab=repositories",
-      },
-    },
+    // {
+    //   title: "older projects",
+    //   techStack: ["jupyter", "analysis", "..."],
+    //   description:
+    //     "my GH profile with 2016-2023 projects ",
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://github.com/thezapalsky?tab=repositories",
+    //   },
+    // },
   ],
 } as const;
