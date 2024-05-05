@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "ML Engineer with product building skills",
   summary:
-    "ML Engineer with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions. Worked with LLMs for +1 year, experienced in GenAI (stable diffusion, style transfer), search & recommender systems.",
+    "ML Engineer with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs for +1 year, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
   personalWebsiteUrl: "https://thezapalsky.github.io",
   contact: {
