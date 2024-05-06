@@ -44,11 +44,11 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/zapalski-mikolaj/",
         icon: LinkedInIcon,
       },
-      // {
-      //   name: "X",
-      //   url: "https://twitter.com/yapalskz",
-      //   icon: XIcon,
-      // },
+      {
+        name: "X",
+        url: "https://twitter.com/yapalskz",
+        icon: XIcon,
+      },
     ],
   },
   education: [
