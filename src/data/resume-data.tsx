@@ -78,7 +78,7 @@ export const RESUME_DATA = {
       link: "https://www.goewellness.com/",
       title: "Machine Learning Engineer",
       start: "09/2023",
-      end: "now",
+      end: "05/2024",
       description:
         "• Developed and maintained machine learning models for a holistic wellness mobile app, including a personal LLM assistant, in-app content recommendation system and semantic search engine\n• Designed and deployed efficient ML data pipelines for user activity scoring and content retrieval modules, optimising app performance\n• Leveraged Python expertise (pandas, NumPy, PyTorch, FastAPI) to deploy machine learning models on AWS infrastructure, integrating OpenAI API and wearables API with MongoDB for advanced functionalities and user data management",
     },
