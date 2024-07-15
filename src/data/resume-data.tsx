@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Krakow, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Krakow",
   about:
-    "ML Engineer with product building skills",
+    "data science generalist with product building skills",
   summary:
-    "ML Engineer with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs for +1 year, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
+    "Data Science generalist with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs for +1 year, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
   personalWebsiteUrl: "https://thezapalsky.github.io",
   contact: {
@@ -73,10 +73,19 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Leya",
+      badges: [],
+      link: "https://www.leya.law/",
+      title: "AI Research Engineer",
+      start: "05/2024",
+      end: "now",
+      description: "Building the future of legal work.",
+    },
+    {
       company: "GoE Wellness",
       badges: [],
       link: "https://www.goewellness.com/",
-      title: "Machine Learning Engineer",
+      title: "Data Scientist",
       start: "09/2023",
       end: "05/2024",
       description:
@@ -116,7 +125,7 @@ export const RESUME_DATA = {
       company: "Fern Flower",
       link: "https://www.linkedin.com/company/14782135/",
       badges: ["Part-time"],
-      title: "Business Owner",
+      title: "Co-Founder | Gardening services",
       start: "2018",
       end: "2021",
       description:
