@@ -28,7 +28,8 @@ export const RESUME_DATA = {
     "data science generalist with product building skills",
   summary:
     "Data Science generalist with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs for +1 year, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
+  // avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQHRGktBv_nkAQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710844142888?e=1735171200&v=beta&t=pHp0RC_gSI2Uqp6jt_kH02llKSQOHww-_q0rC7mUVm0",
   personalWebsiteUrl: "https://thezapalsky.github.io",
   contact: {
     email: "zapalski.mikolaj@gmail.com",
