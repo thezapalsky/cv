@@ -24,12 +24,11 @@ export const RESUME_DATA = {
   initials: "MZ",
   location: "Krakow, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Krakow",
-  about:
-    "data science generalist with product building skills",
+  about: "data science generalist with product building skills",
   summary:
     "Data Science generalist with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs for +1 year, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
   // avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQHRGktBv_nkAQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710844142888?e=1735171200&v=beta&t=pHp0RC_gSI2Uqp6jt_kH02llKSQOHww-_q0rC7mUVm0",
+  avatarUrl: "/ice_cropped.jpeg",
   personalWebsiteUrl: "https://thezapalsky.github.io",
   contact: {
     email: "zapalski.mikolaj@gmail.com",
@@ -100,7 +99,7 @@ export const RESUME_DATA = {
       start: "07/2022",
       end: "09/2023",
       description:
-      "• Designed, delivered and owned numerous internal tech solutions (web scrapers, data pipelines, automation tools) that streamlined workflows and boosted efficiency\n• Led the development of a global contractors' payroll pipeline, automating monthly processing for ~400 employees (~$50k) and integrating transfers, invoicing, and P&L reporting\n• Successfully implemented 70% efficiency improvement through automation of contractors’ legal paperwork pipeline\n• Proposed the exploration of OpenAI API for data augmentation, investigating its potential to increase the size of the client's CRM database by 15%\n• Utilised Python, Pandas, Jupyter Notebook, Javascript, Zapier, and Google Sheets to deliver effective solutions",
+        "• Designed, delivered and owned numerous internal tech solutions (web scrapers, data pipelines, automation tools) that streamlined workflows and boosted efficiency\n• Led the development of a global contractors' payroll pipeline, automating monthly processing for ~400 employees (~$50k) and integrating transfers, invoicing, and P&L reporting\n• Successfully implemented 70% efficiency improvement through automation of contractors’ legal paperwork pipeline\n• Proposed the exploration of OpenAI API for data augmentation, investigating its potential to increase the size of the client's CRM database by 15%\n• Utilised Python, Pandas, Jupyter Notebook, Javascript, Zapier, and Google Sheets to deliver effective solutions",
     },
     {
       company: "Epinote",
@@ -132,15 +131,29 @@ export const RESUME_DATA = {
       description:
         "• Seasonal activity in the garden and home automation sectors",
     },
-    
   ],
   skills: [
-    "Python","pandas","numpy","OpenAI API","fastAPI","scikit-learn","pytorch-transformers", "jupyter", "LangChain", "MongoDB","AWS","Docker","git","graphite", "Apps Script", "Zapier"
+    "Python",
+    "pandas",
+    "numpy",
+    "OpenAI API",
+    "fastAPI",
+    "scikit-learn",
+    "pytorch-transformers",
+    "jupyter",
+    "LangChain",
+    "MongoDB",
+    "AWS",
+    "Docker",
+    "git",
+    "graphite",
+    "Apps Script",
+    "Zapier",
   ],
   projects: [
     {
       title: "style transfer paper",
-      techStack: ["python","pytorch", "tensorflow"],
+      techStack: ["python", "pytorch", "tensorflow"],
       description:
         "2022 master's thesis that discusses GenAI art just before the generative boom",
       link: {
@@ -155,8 +168,8 @@ export const RESUME_DATA = {
         "2020 bachelor's thesis that compares different recommender systems for a movie database",
       link: {
         label: "github.com",
-        href: "https://github.com/thezapalsky/rec-sys-bt"
-      }
+        href: "https://github.com/thezapalsky/rec-sys-bt",
+      },
     },
     {
       title: "polish rap bot",
@@ -179,11 +192,9 @@ export const RESUME_DATA = {
       },
     },
     {
-      
       title: "agency",
       techStack: ["Stable Diffusion", "ollama", "LLMs"],
-      description:
-        "PoC for a virtual influencer agency",
+      description: "PoC for a virtual influencer agency",
       link: {
         label: "github.com",
         href: "https://github.com/thezapalsky/agency/blob/main/poc.ipynb",
@@ -197,7 +208,7 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/thezapalsky/2048-embd",
-      }
+      },
     },
     // {
     //   title: "vid-upscale",
