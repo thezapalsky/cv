@@ -17,13 +17,18 @@
 //   TastyCloudLogo,
 //   YearProgressLogo,
 // } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import {
+  GitHubIcon,
+  LinkedInIcon,
+  WebsiteIcon,
+  XIcon,
+} from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Mikołaj Zapalski",
   initials: "MZ",
   location: "Gdansk, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Krakow",
+  locationLink: "https://www.google.com/maps/place/Gdansk",
   about: "data science generalist with product building skills",
   summary:
     "Data Science generalist with years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs, RAG, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
@@ -48,6 +53,11 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://twitter.com/yapalskz",
         icon: XIcon,
+      },
+      {
+        name: "Website",
+        url: "https://thezapalsky.github.io/",
+        icon: WebsiteIcon,
       },
     ],
   },
