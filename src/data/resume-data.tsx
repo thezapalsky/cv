@@ -22,11 +22,11 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Mikołaj Zapalski",
   initials: "MZ",
-  location: "Krakow, Poland, CET",
+  location: "Gdansk, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Krakow",
   about: "data science generalist with product building skills",
   summary:
-    "Data Science generalist with four years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs for +1 year, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
+    "Data Science generalist with years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs, RAG, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
   // avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
   avatarUrl: "/ice_cropped.jpeg",
   personalWebsiteUrl: "https://thezapalsky.github.io",
@@ -79,7 +79,8 @@ export const RESUME_DATA = {
       title: "AI Research Engineer",
       start: "05/2024",
       end: "now",
-      description: "Building the future of legal work.",
+      description:
+        "• Built and optimised LLM infrastructure around core features, including token management, retries, stream parsing, agent failure handling, managing snapshot deployments, and more, contributing to product hockey stick growth.\n•	Authored comprehensive research reports to guide data-driven decisions, implementing mechanisms for paragraph-level, hallucination-free citations, infinite-context document representation, researched emdedding techniques, output validation and RAG pipelines on legal datasets; all measured through a hand-crafted evaluation system to ensure performance, reliability, and scalability.",
     },
     {
       company: "GoE Wellness",
@@ -99,7 +100,7 @@ export const RESUME_DATA = {
       start: "07/2022",
       end: "09/2023",
       description:
-        "• Designed, delivered and owned numerous internal tech solutions (web scrapers, data pipelines, automation tools) that streamlined workflows and boosted efficiency\n• Led the development of a global contractors' payroll pipeline, automating monthly processing for ~400 employees (~$50k) and integrating transfers, invoicing, and P&L reporting\n• Successfully implemented 70% efficiency improvement through automation of contractors’ legal paperwork pipeline\n• Proposed the exploration of OpenAI API for data augmentation, investigating its potential to increase the size of the client's CRM database by 15%\n• Utilised Python, Pandas, Jupyter Notebook, Javascript, Zapier, and Google Sheets to deliver effective solutions",
+        "• Designed, delivered and owned numerous internal tech solutions (web scrapers, data pipelines, automation tools) that streamlined workflows and boosted efficiency\n• Led the development of a global contractors' payroll pipeline, automating monthly processing for ~400 employees (~$50k) and integrating transfers, invoicing, and P&L reporting\n• Successfully implemented 70% efficiency improvement through automation of contractors' legal paperwork pipeline\n• Proposed the exploration of OpenAI API for data augmentation, investigating its potential to increase the size of the client's CRM database by 15%\n• Utilised Python, Pandas, Jupyter Notebook, Javascript, Zapier, and Google Sheets to deliver effective solutions",
     },
     {
       company: "Epinote",
@@ -152,6 +153,15 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "regalo",
+      techStack: ["python", "LLMs", "TypeScript"],
+      description: "gift ideas generator & planner",
+      link: {
+        label: "github.com",
+        href: "https://www.loom.com/share/1a97648e449943e6a3098b77197ccce0",
+      },
+    },
+    {
       title: "style transfer paper",
       techStack: ["python", "pytorch", "tensorflow"],
       description:
@@ -200,16 +210,16 @@ export const RESUME_DATA = {
         href: "https://github.com/thezapalsky/agency/blob/main/poc.ipynb",
       },
     },
-    {
-      title: "2048-embd",
-      techStack: ["word2vec", "BERT"],
-      description:
-        "fundamentals of vector word embeddings meet classic 2048 game",
-      link: {
-        label: "github.com",
-        href: "https://github.com/thezapalsky/2048-embd",
-      },
-    },
+    // {
+    //   title: "2048-embd",
+    //   techStack: ["word2vec", "BERT"],
+    //   description:
+    //     "fundamentals of vector word embeddings meet classic 2048 game",
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://github.com/thezapalsky/2048-embd",
+    //   },
+    // },
     // {
     //   title: "vid-upscale",
     //   techStack: ["video upscaling"],
