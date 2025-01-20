@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   initials: "MZ",
   location: "Gdansk, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Gdansk",
-  about: "data science generalist with product building skills",
+  about: "LLM engineer with product building skills",
   summary:
     "Data Science generalist with years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs, RAG, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
   // avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
@@ -168,7 +168,7 @@ export const RESUME_DATA = {
       description: "gift ideas generator & planner",
       link: {
         label: "github.com",
-        href: "https://www.loom.com/share/1a97648e449943e6a3098b77197ccce0",
+        href: "https://www.loom.com/share/85fdac72484e409b973137896444635c?sid=cac1976c-2d25-4fc8-a8b2-d8366ade8f8c",
       },
     },
     {
