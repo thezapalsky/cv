@@ -79,6 +79,11 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
               ) : null}
+              {RESUME_DATA.contact.social[0].name === "Website" && (
+                <a href={`${RESUME_DATA.contact.social[0].url}`}>
+                  <span className="underline">{RESUME_DATA.contact.social[0].printUrl}</span>
+                </a>
+              )}
               {RESUME_DATA.contact.tel ? (
                 <a href={`tel:${RESUME_DATA.contact.tel}`}>
                   <span className="underline">{RESUME_DATA.contact.tel}</span>

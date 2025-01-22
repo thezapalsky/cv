@@ -21,6 +21,7 @@ export const RESUME_DATA = {
       {
         name: "Website",
         url: "https://thezapalsky.github.io/",
+        printUrl: "thezapalsky.github.io",
         icon: WebsiteIcon,
       },
       {
