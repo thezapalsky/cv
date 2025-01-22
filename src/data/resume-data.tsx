@@ -126,6 +126,7 @@ export const RESUME_DATA = {
     "Python",
     "OpenAI & Antrophic APIs",
     "FastAPI",
+    "pydantic",
     "pandas",
     "numpy",
     "scikit-learn",
