@@ -1,22 +1,3 @@
-// import {
-//   AmbitLogo,
-//   BarepapersLogo,
-//   BimLogo,
-//   CDGOLogo,
-//   ClevertechLogo,
-//   ConsultlyLogo,
-//   EvercastLogo,
-//   Howdy,
-//   JarockiMeLogo,
-//   JojoMobileLogo,
-//   Minimal,
-//   MobileVikingsLogo,
-//   MonitoLogo,
-//   NSNLogo,
-//   ParabolLogo,
-//   TastyCloudLogo,
-//   YearProgressLogo,
-// } from "@/images/logos";
 import {
   GitHubIcon,
   LinkedInIcon,
@@ -29,16 +10,19 @@ export const RESUME_DATA = {
   initials: "MZ",
   location: "Gdansk, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Gdansk",
-  about: "LLM engineer with product building skills",
+  about: "ML engineer with product building skills",
   summary:
-    "Data Science generalist with years of experience in tech startups, holding a Master's degree in IT & Econometrics. Worked with LLMs, RAG, experienced in GenAI (stable diffusion, style transfer), search & recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
-  // avatarUrl: "https://avatars.githubusercontent.com/u/19775889?s=400&u=0a3f7cf8547065f3597d08cc7136bc082b612700&v=4",
+    "Machine Learning engineer with five years of experience in tech startups, holding a Master's degree in IT & Econometrics. For the past two years, focused on integrating LLMs into applications, with expertise in RAG, GenAI (stable diffusion, style transfer), search, and recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
   avatarUrl: "/ice_cropped.jpeg",
-  personalWebsiteUrl: "https://thezapalsky.github.io",
   contact: {
     email: "zapalski.mikolaj@gmail.com",
     tel: "+48517760111",
     social: [
+      {
+        name: "Website",
+        url: "https://thezapalsky.github.io/",
+        icon: WebsiteIcon,
+      },
       {
         name: "GitHub",
         url: "https://github.com/thezapalsky",
@@ -53,11 +37,6 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://twitter.com/yapalskz",
         icon: XIcon,
-      },
-      {
-        name: "Website",
-        url: "https://thezapalsky.github.io/",
-        icon: WebsiteIcon,
       },
     ],
   },
@@ -88,7 +67,7 @@ export const RESUME_DATA = {
       link: "https://www.leya.law/",
       title: "AI Research Engineer",
       start: "05/2024",
-      end: "now",
+      end: "02/2025",
       description:
         "• Built and optimised LLM infrastructure around core features, including token management, retries, stream parsing, agent failure handling, managing snapshot deployments, and more, contributing to product hockey stick growth.\n•	Authored comprehensive research reports to guide data-driven decisions, implementing mechanisms for paragraph-level, hallucination-free citations, infinite-context document representation, researched emdedding techniques, output validation and RAG pipelines on legal datasets; all measured through a hand-crafted evaluation system to ensure performance, reliability, and scalability.",
     },
@@ -115,7 +94,7 @@ export const RESUME_DATA = {
     {
       company: "Epinote",
       link: "https://epinote.io/",
-      badges: [],
+      badges: ["Part-time"],
       title: "Data Analyst",
       start: "04/2020",
       end: "01/2022",
@@ -145,26 +124,24 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Python",
+    "OpenAI & Antrophic APIs",
+    "FastAPI",
     "pandas",
     "numpy",
-    "OpenAI API",
-    "fastAPI",
     "scikit-learn",
-    "pytorch-transformers",
     "jupyter",
+    "pytorch-transformers",
     "LangChain",
-    "MongoDB",
     "AWS",
+    "Azure",
     "Docker",
     "git",
-    "graphite",
-    "Apps Script",
-    "Zapier",
+    "TypeScript",
   ],
   projects: [
     {
       title: "regalo",
-      techStack: ["python", "LLMs", "TypeScript"],
+      techStack: ["pydanticAI", "LLMs", "TypeScript"],
       description: "gift ideas generator & planner",
       link: {
         label: "github.com",
@@ -182,6 +159,36 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "polish rap bot",
+      techStack: ["python", "asyncio", "API"],
+      description:
+      "pre-LLM era chatbot for discord and meta's services with rap-style song writing feature",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky/mikosz-bot",
+      },
+    },
+    {
+      title: "@skyblue.yoga",
+      techStack: ["SD/Flux", "LLMs", "LangChain"],
+      description:
+      "my attempt to create an Artifical Influencer, PoC built for a podcast episode",
+      link: {
+        label: "instagram.com",
+        href: "https://www.instagram.com/skyblue.yoga/",
+      },
+    },
+    {
+      title: "2048-embd",
+      techStack: ["word2vec", "BERT", "python"],
+      description:
+        "fundamentals of vector word embeddings meet classic 2048 game",
+      link: {
+        label: "github.com",
+        href: "https://github.com/thezapalsky/2048-embd",
+      },
+    },
+    {
       title: "recommender sys paper",
       techStack: ["python", "surprise", "numpy"],
       description:
@@ -191,43 +198,13 @@ export const RESUME_DATA = {
         href: "https://github.com/thezapalsky/rec-sys-bt",
       },
     },
-    {
-      title: "polish rap bot",
-      techStack: ["python", "asyncio", "API"],
-      description:
-        "pre-LLM era chatbot for discord and meta's services with rap-style song writing feature",
-      link: {
-        label: "github.com",
-        href: "https://github.com/thezapalsky/mikosz-bot",
-      },
-    },
-    {
-      title: "@skyblue.yoga",
-      techStack: ["Stable Diffusion", "LLMs"],
-      description:
-        "my attempt to create an Artifical Influencer, PoC built for a podcast episode",
-      link: {
-        label: "instagram.com",
-        href: "https://www.instagram.com/skyblue.yoga/",
-      },
-    },
-    {
-      title: "agency",
-      techStack: ["Stable Diffusion", "ollama", "LLMs"],
-      description: "PoC for a virtual influencer agency",
-      link: {
-        label: "github.com",
-        href: "https://github.com/thezapalsky/agency/blob/main/poc.ipynb",
-      },
-    },
     // {
-    //   title: "2048-embd",
-    //   techStack: ["word2vec", "BERT"],
-    //   description:
-    //     "fundamentals of vector word embeddings meet classic 2048 game",
+    //   title: "agency",
+    //   techStack: ["Stable Diffusion", "ollama", "LLMs"],
+    //   description: "PoC for a virtual influencer agency",
     //   link: {
     //     label: "github.com",
-    //     href: "https://github.com/thezapalsky/2048-embd",
+    //     href: "https://github.com/thezapalsky/agency/blob/main/poc.ipynb",
     //   },
     // },
     // {
