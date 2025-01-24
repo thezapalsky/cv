@@ -69,8 +69,9 @@ export const RESUME_DATA = {
       title: "AI Research Engineer",
       start: "05/2024",
       end: "02/2025",
-      description:
-        "• Built and optimised LLM infrastructure around core features, including token management, retries, stream parsing, agent failure handling, managing snapshot deployments, and more, contributing to product hockey stick growth.\n•	Authored comprehensive research reports to guide data-driven decisions, implementing mechanisms for paragraph-level, hallucination-free citations, infinite-context document representation, researched emdedding techniques, output validation and RAG pipelines on legal datasets; all measured through a hand-crafted evaluation system to ensure performance, reliability, and scalability.",
+      description: `• Designed and optimized LLM infrastructure to support core features like token management, retries, stream parsing, agent failure handling, and snapshot deployments. Integrated new features into the AI backend with a focus on reliability, scalability, type safety, and clean, maintainable code, driving significant product growth.
+      • Authored research reports to guide data-driven decisions, implementing paragraph-level, hallucination-free citations, infinite-context document representation, advanced embeddings, output validation, and RAG pipelines tailored to legal datasets. Regularly applied SOTA research to enhance product capabilities, rigorously tested through a custom evaluation framework to ensure performance, reliability, and scalability.
+      • Reduced the error rate from 2.5% to 0.02% (100x improvement), significantly improving reliability and user satisfaction. Collaborated with stakeholders in high-pressure 'war room' settings, iterating rapidly on user feedback to secure €500k+ deals.`,
     },
     {
       company: "GoE Wellness",
@@ -79,8 +80,9 @@ export const RESUME_DATA = {
       title: "Data Scientist",
       start: "09/2023",
       end: "05/2024",
-      description:
-        "• Developed and maintained machine learning models for a holistic wellness mobile app, including a personal LLM assistant, in-app content recommendation system and semantic search engine\n• Designed and deployed efficient ML data pipelines for user activity scoring and content retrieval modules, optimising app performance\n• Leveraged Python expertise (pandas, NumPy, PyTorch, FastAPI) to deploy machine learning models on AWS infrastructure, integrating OpenAI API and wearables API with MongoDB for advanced functionalities and user data management",
+      description: `• Integrated and maintained machine learning models for a holistic wellness mobile app, including a personal LLM assistant, in-app content recommendation system, and semantic search engine.
+      • Designed and deployed efficient ML data pipelines for user activity scoring and content retrieval modules, optimizing app performance.
+      • Leveraged Python expertise (pandas, NumPy, PyTorch, FastAPI) to deploy machine learning models on AWS infrastructure, integrating OpenAI API and wearables API with MongoDB for advanced functionalities and user data management.`,
     },
     {
       company: "Epinote",
@@ -89,8 +91,11 @@ export const RESUME_DATA = {
       title: "Product Engineer",
       start: "07/2022",
       end: "09/2023",
-      description:
-        "• Designed, delivered and owned numerous internal tech solutions (web scrapers, data pipelines, automation tools) that streamlined workflows and boosted efficiency\n• Led the development of a global contractors' payroll pipeline, automating monthly processing for ~400 employees (~$50k) and integrating transfers, invoicing, and P&L reporting\n• Successfully implemented 70% efficiency improvement through automation of contractors' legal paperwork pipeline\n• Proposed the exploration of OpenAI API for data augmentation, investigating its potential to increase the size of the client's CRM database by 15%\n• Utilised Python, Pandas, Jupyter Notebook, Javascript, Zapier, and Google Sheets to deliver effective solutions",
+      description: `• Designed, delivered, and owned numerous internal tech solutions (web scrapers, data pipelines, automation tools) that streamlined workflows and boosted efficiency.
+      • Developed a global contractor payroll system, automating monthly processing for 400 employees ($50k/month), including transfers, invoicing, and P&L reporting.
+      • Successfully implemented a 70% efficiency improvement through automation of contractors' legal paperwork pipeline.
+      • Proposed the exploration of OpenAI API for data augmentation, investigating its potential to increase the size of the client's CRM database by 15%.
+      • Utilized Python, Pandas, Jupyter Notebook, JavaScript, Zapier, and Google Sheets to deliver effective solutions.`,
     },
     {
       company: "Epinote",
@@ -99,8 +104,10 @@ export const RESUME_DATA = {
       title: "Data Analyst",
       start: "04/2020",
       end: "01/2022",
-      description:
-        "• Managed hundreds of multimodal datasets (vision, tabular, text, audio), ensuring data quality through robust annotation, cleaning and validation processes.\n• Developed and implemented data quality checks to improve data integrity for machine learning projects\n• Iteratively optimised data annotation process which led to 10x improvement in project delivery time\n• Transitioned to a combined role encompassing project and operations management, ensuring smooth data pipeline execution and client satisfaction\n• Led the annotation team, gathered and implemented client requirements and feedback, resulting in a significant improvement in model performance and accuracy",
+      description: `• Managed hundreds of multimodal datasets (vision, tabular, text, audio), ensuring data quality through robust annotation, cleaning, and validation processes.
+      • Developed and implemented data quality checks to improve data integrity for machine learning projects, while iteratively optimizing the data annotation process, resulting in a 10x improvement in project delivery time.
+      • Transitioned to a combined role encompassing project and operations management, ensuring smooth data pipeline execution and client satisfaction.
+      • Led the annotation team, gathered and implemented client requirements and feedback, resulting in a significant improvement in model performance and accuracy.`,
     },
     {
       company: "International Paper",
@@ -109,8 +116,8 @@ export const RESUME_DATA = {
       title: "IT Service Desk Analyst",
       start: "2019",
       end: "2021",
-      description:
-        "• Provided technical support and incident management for IT systems and peripherals, effectively resolving issues, monitoring & responding to alerts\n• Prioritizing tasks to minimize global infrastructure disruptions and enhance user experience",
+      description: `• Provided technical support and incident management for IT systems and peripherals, effectively resolving issues and monitoring & responding to alerts.
+      • Prioritized tasks to minimize global infrastructure disruptions and enhance user experience.`,
     },
     {
       company: "Fern Flower",
@@ -119,15 +126,14 @@ export const RESUME_DATA = {
       title: "Co-Founder | Gardening services",
       start: "2018",
       end: "2021",
-      description:
-        "• Seasonal activity in the garden and home automation sectors",
+      description: `• Seasonal activity in the garden and home automation sectors.`,
     },
   ],
   skills: [
     "Python",
     "OpenAI & Antrophic APIs",
     "FastAPI",
-    "pydantic",
+    "pydanticAI",
     "pandas",
     "numpy",
     "scikit-learn",
