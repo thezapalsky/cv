@@ -76,7 +76,7 @@ export const RESUME_DATA = {
     {
       company: "GoE Wellness",
       badges: [],
-      link: "https://apps.apple.com/pl/app/goe-wellness/id6450835692",
+      link: "https://apps.apple.com/ba/app/goe-wellness/id6450835692",
       title: "Data Scientist",
       start: "09/2023",
       end: "05/2024",
