@@ -10,9 +10,9 @@ export const RESUME_DATA = {
   initials: "MZ",
   location: "Gdansk, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Gdansk",
-  about: "ML engineer with product building skills",
+  about: "AI/ML engineer with product building skills",
   summary:
-    "Machine Learning engineer with five years of experience in tech startups, holding a Master's degree in IT & Econometrics. For the past two years, focused on integrating LLMs into applications, with expertise in RAG, GenAI (stable diffusion, style transfer), search, and recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
+    "AI/ML engineer with five years of experience in tech startups, holding a Master's degree in IT & Econometrics. For the past two years, focused on integrating LLMs into applications, with expertise in RAG, GenAI (stable diffusion, style transfer), search, and recommender systems. Combines a strong statistical background with a keen interest in leveraging data for innovative solutions.",
   avatarUrl: "/ice_cropped.jpeg",
   contact: {
     email: "zapalski.mikolaj@gmail.com",
