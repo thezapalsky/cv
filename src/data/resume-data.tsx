@@ -153,7 +153,7 @@ export const RESUME_DATA = {
       description: "gift ideas generator & planner",
       link: {
         label: "github.com",
-        href: "https://regalo-erm.pages.dev/",
+        href: "https://regalo.website/",
       },
     },
     {
