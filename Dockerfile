@@ -1,22 +1,23 @@
-# Use the official lightweight Node.js 18 image.
-# https://hub.docker.com/_/node
-FROM node:18-slim
+FROM node:24-bookworm-slim
 
 # Create and change to the app directory.
 WORKDIR /usr/src/app
 
-# Copy application dependency manifests to the container image.
-# A wildcard is used to ensure both package.json AND package-lock.json are copied.
-COPY package*.json ./
+RUN npm install --global pnpm@10.34.9
+
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 
 # Install all dependencies.
-RUN npm install
+RUN pnpm install --frozen-lockfile
 
 # Copy local code to the container image.
 COPY . .
 
 # Build the app
-RUN npm run build
+RUN pnpm build && chown -R node:node /usr/src/app
+
+ENV NODE_ENV=production
+USER node
 
 # Run the web service on container startup.
-CMD [ "npm", "start" ]
+CMD [ "pnpm", "start" ]
